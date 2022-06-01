@@ -1,0 +1,60 @@
+body{
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(243, 233, 239);
+    box-sizing: border-box;
+}
+
+.t1{
+    color:brown
+}
+
+
+div.card {
+    /* width: 250px; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+  }
+
+  div.card:hover{
+    box-shadow: 0 4px 8px 0 rgba(92, 66, 66, 0.2), 0 6px 20px 0 rgba(175, 84, 84, 0.19);
+   
+  }
+img{
+    width:100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+img:hover
+{
+  
+    width:102%;
+    height: 420px;
+}
+.col-2{
+    height: 700px;
+}
+#a1{
+    text-decoration: line-through;
+  }
+  
+  .s2{
+    display:flex;
+      justify-content: space-evenly;
+     
+  }
+  .p1{
+      width:121%;
+      background-color:rgb(243, 233, 239); height: 250px;
+      border:2px solid rgb(230, 213, 213) ;
+      margin-left: -100px;
+
+  }
+  .row{
+      display: flex;
+  }
+
+
+  
